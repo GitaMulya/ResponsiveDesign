@@ -1,0 +1,68 @@
+.desc{
+    max-width: 400px;
+}
+.tebel{
+    font-weight: 900;
+}
+.bold1{
+    font-weight: bold;
+}
+.button{
+    background-image: linear-gradient(to right, rgb(252, 117, 102) 0%, salmon 51%);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.button:hover{
+    background-image: linear-gradient(to right,  #d84f7d 0%, salmon 51%);
+    color: white;
+}
+.gambar{
+    display: none;
+}
+.img{
+    width: 500px;
+    z-index: -1;
+}
+.link{
+    color:gray;
+    transition: 0.3s;
+}
+.link:hover{
+    color:salmon;
+}
+/*responsive*/
+@media screen and (max-width: 600px){
+    .img{
+        display:none;
+        width: 500px;
+    }
+    .gambar{
+        display: block;
+    }
+}
+@media screen and (max-width: 800px){
+    .img{
+        display:none;
+        width: 500px;
+    }
+    .gambar{
+        display: block;
+    }
+}
+@media screen and (max-width: 1199px){
+    .img{
+        display:500px;
+        z-index: -1;
+    }
+}
+@media screen and (max-width: 992px){
+    .img{
+        display:300px;
+        z-index: -1;
+    }
+}
